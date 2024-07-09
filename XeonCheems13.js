@@ -614,7 +614,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                if (!('autosticker' in setting)) setting.autosticker = false 
                if (!('autodownload' in setting)) setting.autodownload = false 
                if (!('autobio' in setting)) setting.autobio = false 
-               if (!('autosiby' in setting)) setting.autosiby = false 
+               if (!('autosiby' in setting)) setting.autosiby = true 
                if (!('autoread' in setting)) setting.autoread = false
                if (!('autorecordtype' in setting)) setting.autorecordtype = false
                if (!('autorecord' in setting)) setting.autorecord = false
@@ -633,7 +633,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                autosticker: false,
                autodownload: false,
                autobio: false,
-               autosiby: false,
+               autosiby: true,
                autoread: false,
                autoblocknum: false,
                onlyindia: false,
