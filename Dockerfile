@@ -9,5 +9,6 @@ RUN apt-get update && \
 
 COPY . .
 
-RUN npm i && npm start
+RUN npm i
 
+ENTRYPOINT ["npm", "start"]
